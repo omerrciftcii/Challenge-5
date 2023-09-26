@@ -158,12 +158,11 @@
     margin:0;
   }
   .img-subtitle{
-    bottom: 0;
-    font-size: 0.5rem;
+    bottom: 1rem;
+    font-size: 0.6rem;
   }
  .image-container{
    position: relative;
-   color: black;
    height:25rem;
    padding:0;
    margin-bottom: 6px;
@@ -171,6 +170,8 @@
      margin: 0;
      padding:0;
    }
+   box-shadow: inset 0 -20px 56px -15px #00B3E5;
+
  }
   .portfolio-image {
     position: absolute;
@@ -178,8 +179,34 @@
     width: 100%;
     margin-left: 0;
     height: 24rem;
+
+  }
+.box-shadow{
+  position:  relative;
+
+
+}
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow:inset 5px -15px 28px -1px #00B3E5;
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+.playground{
+  width: 300px;
+  height: 300px;
+  background-color: wheat;
+  margin: auto;
+  position: relative;
+  & img{
+    width: 300px;
+    height: 300px;
   }
 
+}
   .header {
     color: var(--red);
     font-size: var(--small-font-size);
