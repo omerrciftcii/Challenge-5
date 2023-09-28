@@ -1,204 +1,299 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <meta charset="UTF-8" />
+  <title>Title</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="global.css" />
+  <link rel="stylesheet" href="queries.css" />
 
+
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <script defer src="main.js"></script>
 </head>
 
 <body>
-    <section class="summary">
-        <div class="navbar">
-            <p class="margin-left-18px">PBP</p>
-            <div class="drawer-circle">
-                <i class="material-symbols-outlined">menu</i>
-            </div>
+  <section class="summary" id="summary">
+    <div class="navbar">
+      <p class="zero-margin zero-margin">PBP</p>
+      <div class="drawer-circle ">
+        <i class="material-symbols-outlined">menu</i>
+      </div>
 
+      <div class="nav-items">
+        <ul>
+          <li><a id="aboutButton" href="#about">About</a></li>
+          <li><a id="portfolioButton" href="#service">Portfolio</a></li>
+          <li>Blog</li>
+          <li>Contact</li>
+        </ul>
+      </div>
 
-            <div class="nav-items">
-                <ul>
-                    <li>About</li>
-                    <li>Portfolio</li>
-                    <li>Blog</li>
-                    <li>Contact</li>
-                </ul>
-
-            </div>
-
-            <div class="button transparent-button">Contact</div>
+      <div class="button transparent-button" id="contact-button">Contact</div>
+    </div>
+    <div class="summary-container">
+      <div class="summary-content">
+        <p class="white">Personal Portfolio</p>
+        <p class="biggest-title white">
+          Design & <br />
+          Development
+        </p>
+        <p class="white">
+          The sky was cloudless and of a deep dark blue. <br />
+          The spectacle before us was indeed sublime.
+        </p>
+        <div class="button-section">
+          <button class="button">About</button>
+          <button class="button transparent-button">Learn More</button>
         </div>
-        <div class="summary-container">
-            <div class="summary-content">
-                <p class="white" >Personal Portfolio</p>
-                <p class="biggest-title white ">Design & <br> Development</p>
-                <p class="white">The sky was cloudless and of a deep dark blue. <br> The spectacle before us was indeed
-                    sublime.</p>
-                <div class="button-section">
-                    <button class="button">About</button>
-                    <button class="button transparent-button">Learn More</button>
-                </div>
-            </div>
+      </div>
 
-                <img src="images/hero.png" alt="man">
+      <img src="images/hero.png" alt="man" />
+    </div>
+  </section>
+  <section class="about" id="about">
+    <img src="images/about.png" alt="about-section" />
+    <div class="about-content">
+      <p class="header">About</p>
+      <p class="big-title">
+        Passion,<br />
+        Heart & Soul
+      </p>
+      <p class="description text-container">
+        Apparently we had reached a great height in the atmosphere, for the
+        sky was a dead Apparently we had reached a great height in the
+        atmosphere, for the sky was a dead black.
+      </p>
+      <p class="detail text-container">
+        And we had reached a great height in the atmosphere, for the sky was a
+        dead And we had reached a great height in the atmosphere, for the sky
+        was a dead black.
+        And we had reached a great height in the atmosphere, for the sky was a
+        dead And we had reached a great height in the atmosphere, for the sky
+        was a dead black.
+      </p>
+      <div class="button">About</div>
+    </div>
+  </section>
+  <section class="service" id="service">
+    <div class="service-content">
+      <p class="header">Service</p>
+      <p class="big-title">
+        Professional for <br />
+        Business Solution
+      </p>
+      <div class="check-container">
+        <div class="check-item">
+          <div class="circle">
+            <i class="material-symbols-outlined white">done</i>
+          </div>
+          <p class="description">Highly configurable and easy to set up</p>
         </div>
-
-    </section>
-    <section class="about">
-        <img src="images/about.png" alt="about-section">
-        <div class="about-content">
-            <p class="header">About</p>
-            <p class="big-title">Passion,<br> Heart & Soul</p>
-            <p class="description">Apparently we had reached a great height in the atmosphere, for the sky was a dead Apparently we had reached a great height in the atmosphere, for the sky was a dead
-                black.</p>
-            <p class="detail">And we had reached a great height in the atmosphere, for the sky was a dead And we had reached a great height in the atmosphere, for the sky was a dead
-                black.</p>
-            <div class="button">About</div>
+        <div class="check-item">
+          <div class="circle">
+            <i class="material-symbols-outlined white">done</i>
+          </div>
+          <p class="description">Highly configurable and easy to set up</p>
         </div>
-
-    </section>
-    <section class="service">
-        <div class="service-content">
-            <p class="header">Service</p>
-            <p class="big-title">Professional for <br> Business Solution</p>
-            <div class="check-container">
-                <div class="check-item">
-                    <div class="circle">
-                        <i class="material-symbols-outlined white">done</i>
-                    </div>
-                    <p class="description">Highly configurable and easy to set up</p>
-                </div>
-                <div class="check-item">
-                    <div class="circle">
-                        <i class="material-symbols-outlined white">done</i>
-                    </div>
-                    <p class="description">Highly configurable and easy to set up</p>
-                </div>
-                <div class="check-item">
-                    <div class="circle">
-                        <i class="material-symbols-outlined white">done</i>
-                    </div>
-                    <p class="description">Highly configurable and easy to set up</p>
-                </div>
-            </div>
-            <div class="button">Service</div>
+        <div class="check-item">
+          <div class="circle">
+            <i class="material-symbols-outlined white">done</i>
+          </div>
+          <p class="description">Highly configurable and easy to set up</p>
         </div>
+      </div>
+      <div class="button">Service</div>
+    </div>
 
-            <img src="images/service.png" alt="">
+    <img src="images/service.png" alt="" />
+  </section>
+  <section class="features" id="features">
+    <div class="feature-content margin-bottom-1rem">
+      <p class="header text-container">Features</p>
+      <p class="big-title text-container">Awesome Customer Service </p>
+      <p class="medium-title text-container center-text">
+        Apparently we had reached a great height in the atmosphere, for the
+        sky was a dead black.
+      </p>
+    </div>
 
-
-
-    </section>
-
-    <section class="features">
-        <div class="feature-content">
-            <p class="header">Features</p>
-            <p class="big-title center-text">Awesome <br>
-            <p class="big-title center-text">Customer Service</p>
-            <p class="medium-title">Apparently we had reached a great height in the atmosphere, for the sky was a dead
-                black.</p>
-        </div>
-
-<div class="feature-icons-container">
-    <div class="feature-icons">
+    <div class="icons-container">
+      <div class="feature-icons">
         <div class="circle blue align-left">
-            <img class="features-icon" src="/images/features-1.png"  alt=""/>
+          <img class="features-icon" src="/images/features-1.png" alt="" />
         </div>
-        <p class="big-title align-left margin-bottom-18px margin-top-18px">Design</p>
+        <div class="feature-icon-content">
+          <p class="big-title align-left margin-bottom-1rem margin-top-1rem">
+            Design
+          </p>
 
-        <p class="detail">By the same illusion which lifts the horizon of the sea to the level of the spectator
-            on a hillside, the sable cloud beneath was dished out, and the car seemed to float.</p>
-        <p class="small-title align-left">Learn More</p>
-    </div>
+          <p class="detail text-container align-left">
+            By the same illusion which lifts the horizon of the sea to the level
+            of the spectator on a hillside, the sable cloud beneath was dished
+            out, and the car seemed to float.
+          </p>
+          <p class="small-title align-left">Learn More</p>
+        </div>
 
-</div>
-
+      </div>
+      <div class="feature-icons">
         <div class="circle red align-left">
-            <img  src="/images/features-2.png"  alt=""/>
+          <img src="/images/features-2.png" alt="" />
         </div>
-        <p class="big-title align-left margin-bottom-18px margin-top-18px">Design</p>
+        <p class="big-title align-left margin-bottom-1rem margin-top-1rem">
+          Prototype
+        </p>
 
-        <p class="detail">By the same illusion which lifts the horizon of the sea to the level of the spectator
-            on a hillside, the sable cloud beneath was dished out, and the car seemed to float.</p>
-        <p class="small-title align-left">Learn More</p>
+        <p class="detail text-container align-left">
+          By the same illusion which lifts the horizon of the sea to the level
+          of the spectator on a hillside, the sable cloud beneath was dished
+          out, and the car seemed to float.
+        </p>
+        <p class="small-title align-left align-self-left">Learn More</p>
+      </div>
+      <div class="feature-icons">
         <div class="circle orange align-left">
-            <img class="features-icon" src="/images/features-3.png"  alt=""/>
+          <img class="features-icon" src="/images/features-3.png" alt="" />
         </div>
-        <p class="big-title align-left margin-bottom-18px margin-top-18px">Design</p>
+        <p class="big-title align-left margin-bottom-1rem margin-top-1rem">
+          Develop
+        </p>
 
-        <p class="description">By the same illusion which lifts the horizon of the sea to the level of the spectator
-            on a hillside, the sable cloud beneath was dished out, and the car seemed to float.</p>
+        <p class="detail text-container align-left">
+          By the same illusion which lifts the horizon of the sea to the level
+          of the spectator on a hillside, the sable cloud beneath was dished
+          out, and the car seemed to float.
+        </p>
         <p class="small-title align-left">Learn More</p>
-    </section>
-
-    <section class="portfolio">
-        <p class="header">PORTFOLIO</p>
-        <p class="big-title">Some of My Work</p>
-        <p class="medium-title">Apparently we had reached a great height in the atmosphere, for the sky was a dead
-            black.</p>
-        <div class="button transparent-button black-font">Portfolio</div>
-
-        <div class="image-container">
-            <img class="portfolio-image"
-                src="https://fastly.picsum.photos/id/866/200/300.jpg?hmac=rcadCENKh4rD6MAp6V_ma-AyWv641M4iiOpe1RyFHeI"
-                alt="" />
-            <div class="overlay">
-                <p class="overlay-text">App for iWatch</p>
-                <p class="overlay-text img-subtitle">Development</p>
-            </div>
-
-        </div>
-
-        <div class="image-container">
-            <img class="portfolio-image"
-                src="https://picsum.photos/id/237/200/300"
-                alt="" />
-            <div class="overlay">
-                <p class="overlay-text">Funny App</p>
-                <p class="overlay-text img-subtitle">Design</p>
-            </div>
-
-        </div>
-
-        <div class="image-container">
-                <img class="portfolio-image"
-                     src="https://fastly.picsum.photos/id/671/200/300.jpg?hmac=I6A0nYPaPDSVj8NEal4lbRDDN6E617I8S8Pc3ulWHS8"
-                     alt="" />
-    <div class="overlay">
-
+      </div>
     </div>
-            <p class="overlay-text">Business App</p>
-            <p class="overlay-text img-subtitle">Marketing</p>
+  </section>
+  <section class="portfolio" id="portfolio">
+    <p class="header">PORTFOLIO</p>
+    <p class="big-title">Some of My Work</p>
+    <div class="description">
+      <p class="medium-title">
+        Apparently we had reached a great height in the atmosphere, for the
+        sky was a dead black.
+      </p>
+      <div class="button transparent-button black-font">
+        <p>Portfolio</p>
+      </div>
+    </div>
+
+    <div class="image-container">
+      <div class="image-content">
+        <img class="portfolio-image"
+          src="https://fastly.picsum.photos/id/866/200/300.jpg?hmac=rcadCENKh4rD6MAp6V_ma-AyWv641M4iiOpe1RyFHeI"
+          alt="" />
+        <div class="overlay">
+          <p class="overlay-text">App for iWatch</p>
+          <p class="overlay-text img-subtitle">Development</p>
         </div>
+      </div>
 
-    </section>
+      <div class="image-content">
+        <img class="portfolio-image" src="https://picsum.photos/id/237/200/300" alt="" />
+        <div class="overlay">
+          <p class="overlay-text">Funny App</p>
+          <p class="overlay-text img-subtitle">Design</p>
+        </div>
+      </div>
 
-<section class="numbers">
+      <div class="image-content">
+        <img class="portfolio-image"
+          src="https://fastly.picsum.photos/id/671/200/300.jpg?hmac=I6A0nYPaPDSVj8NEal4lbRDDN6E617I8S8Pc3ulWHS8"
+          alt="" />
+        <div class="overlay"></div>
+        <p class="overlay-text">Business App</p>
+        <p class="overlay-text img-subtitle">Marketing</p>
+      </div>
+    </div>
+  </section>
+  <section class="numbers">
     <p class="header center-text">SOME NUMBERS</p>
-    <p class="big-title center-text margin-bottom-18px">Completed 420+ <br> Projects Last Year</p>
-    <div class="circle orange">
-        <img class="features-icon" src="/images/features-1.png"  alt=""/>
+    <p class="big-title center-text margin-bottom-18px">
+      Completed 420+ <br />
+      Projects Last Year
+    </p>
+    <div class="numbers-container">
+      <div class="numbers-content">
+        <div class="circle orange">
+          <img class="features-icon" src="/images/features-1.png" alt="" />
+        </div>
+        <p class="big-title">123k</p>
+        <p class="description text-container center-text">
+          By the same illusion which lifts the horizon of the sea to the
+          level of the spectator on a hillside, the sable cloud beneath was
+          dished out, and the car seemed to float.
+        </p>
+      </div>
+      <div class="numbers-content">
+        <div class="circle">
+          <img class="features-icon" src="/images/features-2.png" alt="" />
+        </div>
+        <p class="big-title center-text">45+</p>
+        <p class="description text-container center-text">
+          By the same illusion which lifts the horizon of the sea to the level
+          of the spectator on a hillside, the sable cloud beneath was dished
+          out, and the car seemed to float.
+        </p>
+      </div>
+      <div class="numbers-content">
+        <div class="circle orange">
+          <img class="features-icon" src="/images/features-3.png" alt="" />
+        </div>
+        <p class="big-title">45+</p>
+        <p class="description text-container center-text">
+          By the same illusion which lifts the horizon of the sea to the level
+          of the spectator on a hillside, the sable cloud beneath was dished
+          out, and the car seemed to float.
+        </p>
+      </div>
     </div>
-    <p class="big-title">123k</p>
-    <p class="description">By the same illusion which lifts the horizon of the sea to the level of the spectator
-        on a hillside, the sable cloud beneath was dished out, and the car seemed to float.</p>
-
-    <div class="circle orange">
-        <img class="features-icon" src="/images/features-2.png"  alt=""/>
+  </section>
+  <section id="references" class="references">
+    <div class="reference-img">
+      <img src="images/testimonials.png" alt="">
     </div>
-    <p class="big-title">45+</p>
-    <p class="description">By the same illusion which lifts the horizon of the sea to the level of the spectator
-        on a hillside, the sable cloud beneath was dished out, and the car seemed to float.</p>
-</section>
+    <div class="reference-content">
+      <p class="header center-text">References</p>
+      <p class="biggest-title center-text text-container">What's Client Say About Me</p>
+      <p class="center-text text-container">If you're visiting this page, you're likely here because you're searching for a random sentence. Sometimes a
+        random word just isn't enough, and that is where the random sentence generator comes into play. </p>
+        <div class="reference-info flex-row">
+          <img src="images/testimonial-profile.png" alt="">
+          <div class="flex-column">
+            <p class="big-title ">Nick Evans
+            <p class="description">Developer</p>
+          </div>
+    
+        </div>
+        <div class="flex-row">
+          <div class="arrow-circle ">
+            <i class="material-symbols-outlined">arrow_back</i>
+          </div>
+          <div class="arrow-circle">
+            <i class="material-symbols-outlined red">arrow_forward</i>
+    
+          </div>
+    
+        </div>
+    </div>
+  
+  </section>
 
-<div class="playground box-shadow">
-    <img class="features-icon" src="/images/features-2.png"  alt=""/>
-
-</div>
-
+  <section class="support" id="support">
+    <div class="support-content">
+      <p class="header">Support</p>
+    </div>
+    <div class="support-icons"></div>
+  </section>
+  <!--    <div class="playground box-shadow">-->
+  <!--      <img class="features-icon" src="/images/features-2.png" alt="" />-->
+  <!--    </div>-->
 </body>
 
 </html>
