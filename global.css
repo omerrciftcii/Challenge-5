@@ -60,7 +60,7 @@
 .center-text {
   text-align: center;
 }
-.text-container {
+.left-text .text-container {
   max-width: 60%;
   margin-top: 0.5rem;
 }
