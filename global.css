@@ -69,6 +69,8 @@
   color: rgba(0, 0, 0, 0.8);
   font-weight: 500;
 }
+.icon {
+}
 .detail {
   font-size: var(--small-font-size);
   color: rgba(0, 0, 0, 0.5);

@@ -14,7 +14,7 @@
   <script defer src="main.js"></script>
 </head>
 
-<body>
+<body onload="addElementsToExpansionTile()">
   <section class="summary" id="summary">
     <div class="navbar">
       <p class="zero-margin zero-margin">PBP</p>
@@ -260,8 +260,8 @@
     </div>
     <div class="reference-content">
       <p class="header left">References</p>
-      <p class="biggest-title center-text text-container">What's Client Say About Me</p>
-      <p class="center-text text-container">If you're visiting this page, you're likely here because you're searching
+      <p class="biggest-title text-container">What's Client Say About Me</p>
+      <p class="text-container">If you're visiting this page, you're likely here because you're searching
         for a random sentence. Sometimes a
         random word just isn't enough, and that is where the random sentence generator comes into play. </p>
       <div class="reference-info flex-row">
@@ -287,14 +287,68 @@
   </section>
 
   <section class="support" id="support">
-    <div class="support-content">
-      <p class="header">Support</p>
+    <p class="header">Support</p>
+    <p class="biggest-title">24/7 Hour Online Supports</p>
+    <p>Apparently we had reached a great height in the atmosphere, for the
+      sky was a dead black.</p>
+    <div class="support-icons">
+      <div class="content">
+        <div class="circle">
+          <img class="features-icon" src="/images/services-main1.png" alt="" />
+        </div>
+        <p class="text-container">Communication <br> experience</p>
+
+      </div>
+      <div class="content">
+        <div class="circle">
+          <img class="features-icon" src="/images/services-main2.png" alt="" />
+        </div>
+        <p class="text-container">Trending tools and sizes</p>
+      </div>
+      <div class="content">
+        <div class="circle">
+          <img class="features-icon" src="/images/services-main3.png" alt="" />
+        </div>
+        <p class="text-container">Best designing experience</p>
+      </div>
+      <div class="content">
+        <div class="circle">
+          <img class="features-icon" src="/images/services-main4.png" alt="" />
+        </div>
+        <p class="text-container">Training and communication</p>
+      </div>
     </div>
-    <div class="support-icons"></div>
   </section>
-  <!--    <div class="playground box-shadow">-->
-  <!--      <img class="features-icon" src="/images/features-2.png" alt="" />-->
-  <!--    </div>-->
+
+  <section class="faq" id="faq">
+    <p class="header">FAQ</p>
+    <p class="biggest-title">Frequently Ask Questions</p>
+    <div class="expansion-tile" id="expansion-tile">
+      <div class="summary" id="summary-1">
+        <p class="big-title margin-left-1rem margin-top-1rem">Sky was cloudless</p>
+        <i class="material-symbols-outlined margin-right-1rem margin-top-1rem">expand_more</i>
+      </div>
+      <div class="detail" id="detail-1">
+        <p class="medium-title margin-left-1rem margin-top-1rem margin-right-1rem">By the same illusion which lifts the
+          horizon of the sea to the level
+          of the spectator on a hillside, the sable cloud beneath was dished
+          out, and the car seemed to float.</p>
+      </div>
+    </div>
+    <div class="expansion-tile" id="expansion-tile">
+      <div class="summary" id="summary-1">
+        <p class="big-title margin-left-1rem margin-top-1rem">Sky was cloudless</p>
+        <i class="material-symbols-outlined margin-right-1rem margin-top-1rem">expand_more</i>
+      </div>
+      <div class="detail" id="detail-1">
+        <p class="medium-title margin-left-1rem margin-top-1rem margin-right-1rem">By the same illusion which lifts the
+          horizon of the sea to the level
+          of the spectator on a hillside, the sable cloud beneath was dished
+          out, and the car seemed to float.</p>
+      </div>
+    </div>
+  </section>
+
 </body>
 
 </html>
